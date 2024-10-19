@@ -1,5 +1,6 @@
 const { data } = require("./db.connect");
 data();
+require("dotenv").config()
 const ECommerce = require("./clothschema");
 const Cart = require("./cart");
 const express = require("express");
